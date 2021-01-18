@@ -1,0 +1,60 @@
+Mon Dec 28 09:04:34 2020 [19488][-none-][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Mon Dec 28 09:04:38 2020 [19488][-none-][FATAL] Mysqli_query failed.
+Mon Dec 28 09:04:38 2020 [19488][-none-][FATAL]  Query Failed: SELECT id FROM outbound_email WHERE type = 'system' AND deleted = 0: MySQL error 1146: Table 'suitecrm.outbound_email' doesn't exist
+Mon Dec 28 09:04:38 2020 [19488][-none-][FATAL] Mysqli_query failed.
+Mon Dec 28 09:04:38 2020 [19488][-none-][FATAL]  Query Failed: INSERT INTO outbound_email (id,name,type,user_id,mail_sendtype,mail_smtptype,mail_smtpserver,mail_smtpport,mail_smtpuser,mail_smtppass,mail_smtpauth_req,mail_smtpssl) VALUES ('10daf42a-a265-a0fd-50e2-5fe991382a00','system','system','1','SMTP','other','',25,'','',1,0): MySQL error 1146: Table 'suitecrm.outbound_email' doesn't exist
+Mon Dec 28 09:04:45 2020 [19488][-none-][FATAL] User update error: Temp User is not retrieved at ID 1, boolean given
+Mon Dec 28 09:04:45 2020 [19488][-none-][FATAL] Email address save error
+Mon Dec 28 09:04:49 2020 [19488][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Mon Dec 28 09:04:49 2020 [19488][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Mon Dec 28 09:04:50 2020 [19488][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Mon Dec 28 09:04:53 2020 [19488][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Mon Dec 28 09:07:35 2020 [19488][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Mon Dec 28 09:29:22 2020 [19488][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Mon Dec 28 09:29:43 2020 [19488][1][FATAL] ERROR: uploaded file was too big: max filesize: 30000000
+Mon Dec 28 09:29:43 2020 [19488][1][FATAL] Exception handling in D:\xampp\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php:400
+Mon Dec 28 09:29:43 2020 [19488][1][FATAL] Exception in Controller: Invalid Package
+Mon Dec 28 09:29:43 2020 [19488][1][FATAL] backtrace:
+#0 D:\xampp\htdocs\SuiteCRM\modules\Administration\UpgradeWizard.php(128): sugar_die('Invalid Package')
+#1 D:\xampp\htdocs\SuiteCRM\include\MVC\View\SugarView.php(839): include_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\SuiteCRM\include\MVC\View\views\view.classic.php(72): SugarView->includeClassicFile('modules/Adminis...')
+#3 D:\xampp\htdocs\SuiteCRM\include\MVC\View\SugarView.php(226): ViewClassic->display()
+#4 D:\xampp\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(435): SugarView->process()
+#5 D:\xampp\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(375): SugarController->processView()
+#6 D:\xampp\htdocs\SuiteCRM\include\MVC\SugarApplication.php(113): SugarController->execute()
+#7 D:\xampp\htdocs\SuiteCRM\index.php(52): SugarApplication->execute()
+#8 {main}
+Tue Dec 29 09:59:11 2020 [14360][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Tue Jan 12 14:29:21 2021 [7236][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Tue Jan 12 14:31:49 2021 [7236][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Wed Jan 13 02:41:58 2021 [8124][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Wed Jan 13 02:43:21 2021 [8124][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Wed Jan 13 02:47:02 2021 [8124][1][FATAL] User update error: Temp User is not retrieved at ID c0db015b-b9f4-c49c-2e6d-5ffe51e76639, boolean given
+Wed Jan 13 02:47:03 2021 [8124][1][FATAL] Email address save error
+Wed Jan 13 02:49:31 2021 [8124][1][FATAL] User update error: Temp User is not retrieved at ID 23640184-5b7b-121a-0b0b-5ffe511422c8, boolean given
+Wed Jan 13 02:49:31 2021 [8124][1][FATAL] Email address save error
+Wed Jan 13 02:50:36 2021 [8124][1][FATAL] User update error: Temp User is not retrieved at ID 4c266e8c-669a-3d0f-62b9-5ffe51eaa714, boolean given
+Wed Jan 13 02:50:36 2021 [8124][1][FATAL] Email address save error
+Wed Jan 13 02:51:57 2021 [8124][1][FATAL] User update error: Temp User is not retrieved at ID 106046ad-dedf-c90d-2d92-5ffe52280529, boolean given
+Wed Jan 13 02:51:57 2021 [8124][1][FATAL] Email address save error
+Wed Jan 13 02:52:47 2021 [8124][1][FATAL] User update error: Temp User is not retrieved at ID c8f40d8d-6c2e-c710-70b3-5ffe521a98a7, boolean given
+Wed Jan 13 02:52:48 2021 [8124][1][FATAL] Email address save error
+Wed Jan 13 03:05:35 2021 [8124][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Wed Jan 13 03:14:17 2021 [8124][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Wed Jan 13 03:17:59 2021 [8124][23640184-5b7b-121a-0b0b-5ffe511422c8][FATAL] Email address save error
+Wed Jan 13 03:17:59 2021 [8124][23640184-5b7b-121a-0b0b-5ffe511422c8][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Wed Jan 13 03:18:08 2021 [8124][23640184-5b7b-121a-0b0b-5ffe511422c8][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Wed Jan 13 03:18:43 2021 [8124][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Wed Jan 13 03:19:09 2021 [8124][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Thu Jan 14 15:12:56 2021 [2764][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Thu Jan 14 15:30:52 2021 [2764][1][FATAL] Notifications: error sending e-mail, smtp server was not found 
+Thu Jan 14 15:32:42 2021 [2764][1][FATAL] Notifications: error sending e-mail, smtp server was not found 
+Thu Jan 14 15:33:31 2021 [2764][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Sun Jan 17 09:23:02 2021 [10808][-none-][FATAL] SECURITY: User authentication for admin failed
+Sun Jan 17 09:23:04 2021 [10808][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[admin]
+Sun Jan 17 09:23:46 2021 [10808][1][FATAL] Email address save error
+Mon Jan 18 02:43:43 2021 [7540][-none-][FATAL] SECURITY: User authentication for admin failed
+Mon Jan 18 02:43:45 2021 [7540][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[admin]
+Mon Jan 18 02:44:24 2021 [7540][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Mon Jan 18 03:08:23 2021 [7540][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Mon Jan 18 03:10:36 2021 [7540][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
