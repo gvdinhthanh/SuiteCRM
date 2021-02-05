@@ -1,60 +1,175 @@
-Mon Dec 28 09:04:34 2020 [19488][-none-][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
-Mon Dec 28 09:04:38 2020 [19488][-none-][FATAL] Mysqli_query failed.
-Mon Dec 28 09:04:38 2020 [19488][-none-][FATAL]  Query Failed: SELECT id FROM outbound_email WHERE type = 'system' AND deleted = 0: MySQL error 1146: Table 'suitecrm.outbound_email' doesn't exist
-Mon Dec 28 09:04:38 2020 [19488][-none-][FATAL] Mysqli_query failed.
-Mon Dec 28 09:04:38 2020 [19488][-none-][FATAL]  Query Failed: INSERT INTO outbound_email (id,name,type,user_id,mail_sendtype,mail_smtptype,mail_smtpserver,mail_smtpport,mail_smtpuser,mail_smtppass,mail_smtpauth_req,mail_smtpssl) VALUES ('10daf42a-a265-a0fd-50e2-5fe991382a00','system','system','1','SMTP','other','',25,'','',1,0): MySQL error 1146: Table 'suitecrm.outbound_email' doesn't exist
-Mon Dec 28 09:04:45 2020 [19488][-none-][FATAL] User update error: Temp User is not retrieved at ID 1, boolean given
-Mon Dec 28 09:04:45 2020 [19488][-none-][FATAL] Email address save error
-Mon Dec 28 09:04:49 2020 [19488][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
-Mon Dec 28 09:04:49 2020 [19488][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
-Mon Dec 28 09:04:50 2020 [19488][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
-Mon Dec 28 09:04:53 2020 [19488][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
-Mon Dec 28 09:07:35 2020 [19488][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
-Mon Dec 28 09:29:22 2020 [19488][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
-Mon Dec 28 09:29:43 2020 [19488][1][FATAL] ERROR: uploaded file was too big: max filesize: 30000000
-Mon Dec 28 09:29:43 2020 [19488][1][FATAL] Exception handling in D:\xampp\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php:400
-Mon Dec 28 09:29:43 2020 [19488][1][FATAL] Exception in Controller: Invalid Package
-Mon Dec 28 09:29:43 2020 [19488][1][FATAL] backtrace:
-#0 D:\xampp\htdocs\SuiteCRM\modules\Administration\UpgradeWizard.php(128): sugar_die('Invalid Package')
-#1 D:\xampp\htdocs\SuiteCRM\include\MVC\View\SugarView.php(839): include_once('D:\\xampp\\htdocs...')
-#2 D:\xampp\htdocs\SuiteCRM\include\MVC\View\views\view.classic.php(72): SugarView->includeClassicFile('modules/Adminis...')
-#3 D:\xampp\htdocs\SuiteCRM\include\MVC\View\SugarView.php(226): ViewClassic->display()
-#4 D:\xampp\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(435): SugarView->process()
-#5 D:\xampp\htdocs\SuiteCRM\include\MVC\Controller\SugarController.php(375): SugarController->processView()
-#6 D:\xampp\htdocs\SuiteCRM\include\MVC\SugarApplication.php(113): SugarController->execute()
-#7 D:\xampp\htdocs\SuiteCRM\index.php(52): SugarApplication->execute()
-#8 {main}
-Tue Dec 29 09:59:11 2020 [14360][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
-Tue Jan 12 14:29:21 2021 [7236][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
-Tue Jan 12 14:31:49 2021 [7236][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
-Wed Jan 13 02:41:58 2021 [8124][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
-Wed Jan 13 02:43:21 2021 [8124][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
-Wed Jan 13 02:47:02 2021 [8124][1][FATAL] User update error: Temp User is not retrieved at ID c0db015b-b9f4-c49c-2e6d-5ffe51e76639, boolean given
-Wed Jan 13 02:47:03 2021 [8124][1][FATAL] Email address save error
-Wed Jan 13 02:49:31 2021 [8124][1][FATAL] User update error: Temp User is not retrieved at ID 23640184-5b7b-121a-0b0b-5ffe511422c8, boolean given
-Wed Jan 13 02:49:31 2021 [8124][1][FATAL] Email address save error
-Wed Jan 13 02:50:36 2021 [8124][1][FATAL] User update error: Temp User is not retrieved at ID 4c266e8c-669a-3d0f-62b9-5ffe51eaa714, boolean given
-Wed Jan 13 02:50:36 2021 [8124][1][FATAL] Email address save error
-Wed Jan 13 02:51:57 2021 [8124][1][FATAL] User update error: Temp User is not retrieved at ID 106046ad-dedf-c90d-2d92-5ffe52280529, boolean given
-Wed Jan 13 02:51:57 2021 [8124][1][FATAL] Email address save error
-Wed Jan 13 02:52:47 2021 [8124][1][FATAL] User update error: Temp User is not retrieved at ID c8f40d8d-6c2e-c710-70b3-5ffe521a98a7, boolean given
-Wed Jan 13 02:52:48 2021 [8124][1][FATAL] Email address save error
-Wed Jan 13 03:05:35 2021 [8124][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
-Wed Jan 13 03:14:17 2021 [8124][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
-Wed Jan 13 03:17:59 2021 [8124][23640184-5b7b-121a-0b0b-5ffe511422c8][FATAL] Email address save error
-Wed Jan 13 03:17:59 2021 [8124][23640184-5b7b-121a-0b0b-5ffe511422c8][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
-Wed Jan 13 03:18:08 2021 [8124][23640184-5b7b-121a-0b0b-5ffe511422c8][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
-Wed Jan 13 03:18:43 2021 [8124][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
-Wed Jan 13 03:19:09 2021 [8124][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
-Thu Jan 14 15:12:56 2021 [2764][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
-Thu Jan 14 15:30:52 2021 [2764][1][FATAL] Notifications: error sending e-mail, smtp server was not found 
-Thu Jan 14 15:32:42 2021 [2764][1][FATAL] Notifications: error sending e-mail, smtp server was not found 
-Thu Jan 14 15:33:31 2021 [2764][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
-Sun Jan 17 09:23:02 2021 [10808][-none-][FATAL] SECURITY: User authentication for admin failed
-Sun Jan 17 09:23:04 2021 [10808][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[admin]
-Sun Jan 17 09:23:46 2021 [10808][1][FATAL] Email address save error
-Mon Jan 18 02:43:43 2021 [7540][-none-][FATAL] SECURITY: User authentication for admin failed
-Mon Jan 18 02:43:45 2021 [7540][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[admin]
-Mon Jan 18 02:44:24 2021 [7540][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
-Mon Jan 18 03:08:23 2021 [7540][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
-Mon Jan 18 03:10:36 2021 [7540][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Mon Feb  1 16:31:39 2021 [20900][-none-][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Mon Feb  1 16:31:43 2021 [20900][-none-][FATAL] User update error: Temp User is not retrieved at ID 1, boolean given
+Mon Feb  1 16:31:43 2021 [20900][-none-][FATAL] Email address save error
+Mon Feb  1 16:31:44 2021 [20900][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Mon Feb  1 16:31:45 2021 [20900][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Mon Feb  1 16:31:45 2021 [20900][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Mon Feb  1 16:31:45 2021 [20900][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Mon Feb  1 16:34:34 2021 [20893][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Mon Feb  1 20:15:39 2021 [3221][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Mon Feb  1 20:17:51 2021 [2587][1][FATAL] User update error: Temp User is not retrieved at ID eec487ce-32cf-17b7-228a-6017fffa49c8, boolean given
+Mon Feb  1 20:17:52 2021 [2587][1][FATAL] Email address save error
+Mon Feb  1 20:20:08 2021 [2586][1][FATAL] User update error: Temp User is not retrieved at ID ab37d18f-a705-7563-c78b-601800b3e553, boolean given
+Mon Feb  1 20:20:08 2021 [2586][1][FATAL] Email address save error
+Mon Feb  1 20:20:34 2021 [2588][1][FATAL] log call at: modules/EmailMan/tpls/config.tpl:465 - styleChecked is not set
+Mon Feb  1 20:39:29 2021 [3224][1][FATAL] Email address save error
+Mon Feb  1 20:42:45 2021 [3223][1][FATAL] Email address save error
+Mon Feb  1 20:44:37 2021 [3224][1][FATAL] Email address save error
+Mon Feb  1 20:48:21 2021 [2587][1][FATAL] Email address save error
+Mon Feb  1 20:49:54 2021 [3763][1][FATAL] Email address save error
+Mon Feb  1 20:52:39 2021 [2586][1][FATAL] Email address save error
+Mon Feb  1 21:24:45 2021 [833][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Tue Feb  2 09:59:09 2021 [789][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Tue Feb  2 10:00:36 2021 [792][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Tue Feb  2 10:00:36 2021 [792][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Tue Feb  2 13:23:04 2021 [786][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Tue Feb  2 13:23:40 2021 [1890][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Wed Feb  3 08:06:49 2021 [826][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Wed Feb  3 20:11:03 2021 [827][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Wed Feb  3 20:12:38 2021 [2280][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Wed Feb  3 20:19:22 2021 [818][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Wed Feb  3 20:39:57 2021 [2019][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Wed Feb  3 20:39:59 2021 [2019][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Wed Feb  3 20:40:00 2021 [2019][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Wed Feb  3 20:47:11 2021 [827][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Wed Feb  3 20:47:12 2021 [827][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Wed Feb  3 20:47:13 2021 [827][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Wed Feb  3 20:47:13 2021 [827][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Wed Feb  3 20:49:31 2021 [2019][1][FATAL] Missing relationship definition test_module_test_contacts_1. skipping test_module_test_contacts_1 subpanel
+Thu Feb  4 07:27:47 2021 [789][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Thu Feb  4 07:31:18 2021 [1863][1][FATAL] Exception handling in /var/www/html/SuiteCRM/include/MVC/Controller/SugarController.php:400
+Thu Feb  4 07:31:18 2021 [1863][1][FATAL] Exception in Controller: DeployedMetaDataImplementation->getFileName(): View Array is not recognized
+Thu Feb  4 07:31:18 2021 [1863][1][FATAL] backtrace:
+#0 /var/www/html/SuiteCRM/modules/ModuleBuilder/parsers/views/DeployedMetaDataImplementation.php(400): sugar_die('DeployedMetaDat...')
+#1 /var/www/html/SuiteCRM/modules/ModuleBuilder/parsers/views/DeployedMetaDataImplementation.php(114): DeployedMetaDataImplementation->getFileName(Array, 'test_module_tes...', NULL, 'base')
+#2 /var/www/html/SuiteCRM/modules/ModuleBuilder/views/view.resetmodule.php(183): DeployedMetaDataImplementation->__construct(Array, 'test_module_tes...')
+#3 /var/www/html/SuiteCRM/modules/ModuleBuilder/views/view.resetmodule.php(108): ViewResetmodule->removeCustomLayouts()
+#4 /var/www/html/SuiteCRM/modules/ModuleBuilder/views/view.resetmodule.php(68): ViewResetmodule->handleSave()
+#5 /var/www/html/SuiteCRM/include/MVC/View/SugarView.php(226): ViewResetmodule->display()
+#6 /var/www/html/SuiteCRM/include/MVC/Controller/SugarController.php(435): SugarView->process()
+#7 /var/www/html/SuiteCRM/include/MVC/Controller/SugarController.php(375): SugarController->processView()
+#8 /var/www/html/SuiteCRM/include/MVC/SugarApplication.php(113): SugarController->execute()
+#9 /var/www/html/SuiteCRM/index.php(52): SugarApplication->execute()
+#10 {main}
+Thu Feb  4 07:34:34 2021 [1922][1][FATAL] LỖI: Có một lỗi trong khi tải lên của bạn, xin vui lòng liên hệ với người quản trị để được giúp đỡ.
+Thu Feb  4 07:37:06 2021 [1922][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Thu Feb  4 07:39:46 2021 [1922][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Thu Feb  4 07:39:47 2021 [1922][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Thu Feb  4 07:39:47 2021 [1922][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Thu Feb  4 07:56:55 2021 [789][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Thu Feb  4 08:11:12 2021 [1863][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Thu Feb  4 08:26:05 2021 [1924][1][FATAL] LỖI: Có một lỗi trong khi tải lên của bạn, xin vui lòng liên hệ với người quản trị để được giúp đỡ.
+Thu Feb  4 17:09:46 2021 [788][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Fri Feb  5 16:50:25 2021 [1977][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Fri Feb  5 16:51:55 2021 [1979][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Fri Feb  5 16:51:56 2021 [1979][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Fri Feb  5 16:51:57 2021 [1979][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Fri Feb  5 16:51:58 2021 [1979][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Fri Feb  5 16:53:20 2021 [794][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Fri Feb  5 16:56:46 2021 [1979][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Fri Feb  5 16:58:46 2021 [1979][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Fri Feb  5 16:59:53 2021 [794][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Fri Feb  5 17:00:28 2021 [1979][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Fri Feb  5 23:24:17 2021 [2005][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Fri Feb  5 23:49:37 2021 [2030][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Fri Feb  5 23:49:38 2021 [2030][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Fri Feb  5 23:49:39 2021 [2030][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Fri Feb  5 23:51:21 2021 [790][1][FATAL] Mysqli_query failed.
+Fri Feb  5 23:51:21 2021 [790][1][FATAL] Error running count query for Account List:  Query Failed: ( SELECT count(*) c FROM ndt_customercontact  INNER JOIN  ndt_customercontact_accounts_c ON ndt_customercontact.id=ndt_customercontact_accounts_c.ndt_customercontact_accountsndt_customercontact_idb AND ndt_customercontact_accounts_c.ndt_customercontact_accountsaccounts_ida='ca9ff845-ba1f-c360-c3da-601808f52b53' AND ndt_customercontact_accounts_c.deleted=0
+
+ where ndt_customercontact.deleted=0 ): MySQL error 1146: Table 'suitecrm.ndt_customercontact' doesn't exist
+Fri Feb  5 23:51:21 2021 [790][1][FATAL] [ListView::processUnionBeans] . Cơ sở dữ liệu lỗi. Xin vui lòng tham khảo suitecrm. xem log để biết chi tiết.
+Fri Feb  5 23:55:21 2021 [789][1][FATAL] UndeployedMetaDataImplementation->getFileName(): view type custom is not recognized
+Fri Feb  5 23:55:21 2021 [789][1][FATAL] UndeployedMetaDataImplementation->getFileName(): view type custom is not recognized
+Fri Feb  5 23:55:23 2021 [789][1][FATAL] UndeployedMetaDataImplementation->getFileName(): view type custom is not recognized
+Fri Feb  5 23:55:23 2021 [789][1][FATAL] UndeployedMetaDataImplementation->getFileName(): view type custom is not recognized
+Fri Feb  5 23:58:43 2021 [790][1][FATAL] Mysqli_query failed.
+Fri Feb  5 23:58:43 2021 [790][1][FATAL]  Query Failed:  SELECT  ndt_customercontact.id , ndt_customercontact.assigned_user_id , ndt_customercontact.id_stt , ndt_customercontact.loailienhe , ndt_customercontact.noidung  , jt0.user_name assigned_user_name , jt0.created_by assigned_user_name_owner  , 'Users' assigned_user_name_mod, ndt_customercontact.created_by  FROM ndt_customercontact   LEFT JOIN  users jt0 ON ndt_customercontact.assigned_user_id=jt0.id AND jt0.deleted=0
+
+ AND jt0.deleted=0 where ndt_customercontact.deleted=0 ORDER BY ndt_customercontact.date_entered DESC LIMIT 0,21: MySQL error 1146: Table 'suitecrm.ndt_customercontact' doesn't exist
+Sat Feb  6 00:00:14 2021 [788][1][FATAL] Mysqli_query failed.
+Sat Feb  6 00:00:14 2021 [788][1][FATAL]  Query Failed:  SELECT  ndt_customercontact.id , ndt_customercontact.assigned_user_id , ndt_customercontact.id_stt , ndt_customercontact.loailienhe , ndt_customercontact.noidung  , jt0.user_name assigned_user_name , jt0.created_by assigned_user_name_owner  , 'Users' assigned_user_name_mod, ndt_customercontact.created_by  FROM ndt_customercontact   LEFT JOIN  users jt0 ON ndt_customercontact.assigned_user_id=jt0.id AND jt0.deleted=0
+
+ AND jt0.deleted=0 where ndt_customercontact.deleted=0 ORDER BY ndt_customercontact.date_entered DESC LIMIT 0,21: MySQL error 1146: Table 'suitecrm.ndt_customercontact' doesn't exist
+Sat Feb  6 00:01:44 2021 [789][1][FATAL] Mysqli_query failed.
+Sat Feb  6 00:01:44 2021 [789][1][FATAL] Error inserting into table: ndt_customercontact: Query Failed: INSERT INTO ndt_customercontact (id,name,date_entered,date_modified,modified_user_id,created_by,deleted,assigned_user_id,id_stt,loailienhe,noidung)
+					VALUES ('8763c5c3-23c3-0c2c-8248-601d791dcc1b','','2021-02-05 17:01:39','2021-02-05 17:01:39','1','1',0,'3610f3bc-2001-8790-a63f-60180648eaaa',1,'dienThoai','Mô tả sản phầm Áo thun mới sản xuất'): MySQL error 1146: Table 'suitecrm.ndt_customercontact' doesn't exist
+Sat Feb  6 00:01:44 2021 [789][1][FATAL] Exception handling in /var/www/html/SuiteCRM/include/MVC/Controller/SugarController.php:400
+Sat Feb  6 00:01:44 2021 [789][1][FATAL] Exception in Controller: Cơ sở dữ liệu lỗi. Xin vui lòng tham khảo suitecrm. xem log để biết chi tiết.
+Sat Feb  6 00:01:44 2021 [789][1][FATAL] backtrace:
+#0 /var/www/html/SuiteCRM/include/database/DBManager.php(353): sugar_die('C\xC6\xA1 s\xE1\xBB\x9F d\xE1\xBB\xAF l...')
+#1 /var/www/html/SuiteCRM/include/database/DBManager.php(328): DBManager->registerError('Error inserting...', 'Error inserting...', true)
+#2 /var/www/html/SuiteCRM/include/database/MysqliManager.php(179): DBManager->checkError('Error inserting...', true)
+#3 /var/www/html/SuiteCRM/include/database/DBManager.php(519): MysqliManager->query('INSERT INTO ndt...', true, 'Error inserting...')
+#4 /var/www/html/SuiteCRM/data/SugarBean.php(2412): DBManager->insert(Object(NDT_CustomerContact))
+#5 /var/www/html/SuiteCRM/include/MVC/Controller/SugarController.php(684): SugarBean->save(true)
+#6 /var/www/html/SuiteCRM/include/MVC/Controller/SugarController.php(525): SugarController->action_save()
+#7 /var/www/html/SuiteCRM/include/MVC/Controller/SugarController.php(494): SugarController->do_action()
+#8 /var/www/html/SuiteCRM/include/MVC/Controller/SugarController.php(468): SugarController->handle_action()
+#9 /var/www/html/SuiteCRM/include/MVC/Controller/SugarController.php(373): SugarController->process()
+#10 /var/www/html/SuiteCRM/include/MVC/SugarApplication.php(113): SugarController->execute()
+#11 /var/www/html/SuiteCRM/index.php(52): SugarApplication->execute()
+#12 {main}
+Sat Feb  6 00:04:29 2021 [2529][1][FATAL] Mysqli_query failed.
+Sat Feb  6 00:04:29 2021 [2529][1][FATAL]  Query Failed:  SELECT  ndt_customercontact.id , ndt_customercontact.assigned_user_id , ndt_customercontact.id_stt , ndt_customercontact.loailienhe , ndt_customercontact.noidung  , jt0.user_name assigned_user_name , jt0.created_by assigned_user_name_owner  , 'Users' assigned_user_name_mod, ndt_customercontact.created_by  FROM ndt_customercontact   LEFT JOIN  users jt0 ON ndt_customercontact.assigned_user_id=jt0.id AND jt0.deleted=0
+
+ AND jt0.deleted=0 where ndt_customercontact.deleted=0 ORDER BY ndt_customercontact.date_entered DESC LIMIT 0,21: MySQL error 1146: Table 'suitecrm.ndt_customercontact' doesn't exist
+Sat Feb  6 00:05:44 2021 [2535][1][FATAL] Mysqli_query failed.
+Sat Feb  6 00:05:44 2021 [2535][1][FATAL] Error inserting into table: ndt_customercontact: Query Failed: INSERT INTO ndt_customercontact (id,name,date_entered,date_modified,modified_user_id,created_by,deleted,assigned_user_id,id_stt,loailienhe,noidung)
+					VALUES ('c0ae5860-6e10-d259-c0b0-601d7af5cb8c','','2021-02-05 17:05:39','2021-02-05 17:05:39','1','1',0,'3610f3bc-2001-8790-a63f-60180648eaaa',1,'dienThoai','Tư vấn sản phẩm mới (Áo thun)'): MySQL error 1146: Table 'suitecrm.ndt_customercontact' doesn't exist
+Sat Feb  6 00:05:44 2021 [2535][1][FATAL] Exception handling in /var/www/html/SuiteCRM/include/MVC/Controller/SugarController.php:400
+Sat Feb  6 00:05:44 2021 [2535][1][FATAL] Exception in Controller: Cơ sở dữ liệu lỗi. Xin vui lòng tham khảo suitecrm. xem log để biết chi tiết.
+Sat Feb  6 00:05:44 2021 [2535][1][FATAL] backtrace:
+#0 /var/www/html/SuiteCRM/include/database/DBManager.php(353): sugar_die('C\xC6\xA1 s\xE1\xBB\x9F d\xE1\xBB\xAF l...')
+#1 /var/www/html/SuiteCRM/include/database/DBManager.php(328): DBManager->registerError('Error inserting...', 'Error inserting...', true)
+#2 /var/www/html/SuiteCRM/include/database/MysqliManager.php(179): DBManager->checkError('Error inserting...', true)
+#3 /var/www/html/SuiteCRM/include/database/DBManager.php(519): MysqliManager->query('INSERT INTO ndt...', true, 'Error inserting...')
+#4 /var/www/html/SuiteCRM/data/SugarBean.php(2412): DBManager->insert(Object(NDT_CustomerContact))
+#5 /var/www/html/SuiteCRM/include/MVC/Controller/SugarController.php(684): SugarBean->save(true)
+#6 /var/www/html/SuiteCRM/include/MVC/Controller/SugarController.php(525): SugarController->action_save()
+#7 /var/www/html/SuiteCRM/include/MVC/Controller/SugarController.php(494): SugarController->do_action()
+#8 /var/www/html/SuiteCRM/include/MVC/Controller/SugarController.php(468): SugarController->handle_action()
+#9 /var/www/html/SuiteCRM/include/MVC/Controller/SugarController.php(373): SugarController->process()
+#10 /var/www/html/SuiteCRM/include/MVC/SugarApplication.php(113): SugarController->execute()
+#11 /var/www/html/SuiteCRM/index.php(52): SugarApplication->execute()
+#12 {main}
+Sat Feb  6 00:06:15 2021 [2530][1][FATAL] Mysqli_query failed.
+Sat Feb  6 00:06:15 2021 [2530][1][FATAL]  Query Failed:  SELECT  ndt_customercontact.id , ndt_customercontact.assigned_user_id , ndt_customercontact.id_stt , ndt_customercontact.loailienhe , ndt_customercontact.noidung  , jt0.user_name assigned_user_name , jt0.created_by assigned_user_name_owner  , 'Users' assigned_user_name_mod, ndt_customercontact.created_by  FROM ndt_customercontact   LEFT JOIN  users jt0 ON ndt_customercontact.assigned_user_id=jt0.id AND jt0.deleted=0
+
+ AND jt0.deleted=0 where ndt_customercontact.deleted=0 ORDER BY ndt_customercontact.date_entered DESC LIMIT 0,21: MySQL error 1146: Table 'suitecrm.ndt_customercontact' doesn't exist
+Sat Feb  6 00:06:17 2021 [2530][1][FATAL] Mysqli_query failed.
+Sat Feb  6 00:06:17 2021 [2530][1][FATAL]  Query Failed:  SELECT  ndt_customercontact.id , ndt_customercontact.assigned_user_id , ndt_customercontact.id_stt , ndt_customercontact.loailienhe , ndt_customercontact.noidung  , jt0.user_name assigned_user_name , jt0.created_by assigned_user_name_owner  , 'Users' assigned_user_name_mod, ndt_customercontact.created_by  FROM ndt_customercontact   LEFT JOIN  users jt0 ON ndt_customercontact.assigned_user_id=jt0.id AND jt0.deleted=0
+
+ AND jt0.deleted=0 where ndt_customercontact.deleted=0 ORDER BY ndt_customercontact.date_entered DESC LIMIT 0,21: MySQL error 1146: Table 'suitecrm.ndt_customercontact' doesn't exist
+Sat Feb  6 00:06:37 2021 [2534][1][FATAL] Mysqli_query failed.
+Sat Feb  6 00:06:37 2021 [2534][1][FATAL] Error inserting into table: ndt_customercontact: Query Failed: INSERT INTO ndt_customercontact (id,name,date_entered,date_modified,modified_user_id,created_by,deleted,assigned_user_id,id_stt,loailienhe,noidung)
+					VALUES ('ca9654ce-f1a1-92c2-6fce-601d7be748f1','','2021-02-05 17:06:37','2021-02-05 17:06:37','1','1',0,'1',1,'dienThoai','Tư vấn sản phẩm mới (Áo thun)'): MySQL error 1146: Table 'suitecrm.ndt_customercontact' doesn't exist
+Sat Feb  6 00:06:37 2021 [2534][1][FATAL] Exception handling in /var/www/html/SuiteCRM/include/MVC/Controller/SugarController.php:400
+Sat Feb  6 00:06:37 2021 [2534][1][FATAL] Exception in Controller: Cơ sở dữ liệu lỗi. Xin vui lòng tham khảo suitecrm. xem log để biết chi tiết.
+Sat Feb  6 00:06:37 2021 [2534][1][FATAL] backtrace:
+#0 /var/www/html/SuiteCRM/include/database/DBManager.php(353): sugar_die('C\xC6\xA1 s\xE1\xBB\x9F d\xE1\xBB\xAF l...')
+#1 /var/www/html/SuiteCRM/include/database/DBManager.php(328): DBManager->registerError('Error inserting...', 'Error inserting...', true)
+#2 /var/www/html/SuiteCRM/include/database/MysqliManager.php(179): DBManager->checkError('Error inserting...', true)
+#3 /var/www/html/SuiteCRM/include/database/DBManager.php(519): MysqliManager->query('INSERT INTO ndt...', true, 'Error inserting...')
+#4 /var/www/html/SuiteCRM/data/SugarBean.php(2412): DBManager->insert(Object(NDT_CustomerContact))
+#5 /var/www/html/SuiteCRM/include/MVC/Controller/SugarController.php(684): SugarBean->save(false)
+#6 /var/www/html/SuiteCRM/include/MVC/Controller/SugarController.php(525): SugarController->action_save()
+#7 /var/www/html/SuiteCRM/include/MVC/Controller/SugarController.php(494): SugarController->do_action()
+#8 /var/www/html/SuiteCRM/include/MVC/Controller/SugarController.php(468): SugarController->handle_action()
+#9 /var/www/html/SuiteCRM/include/MVC/Controller/SugarController.php(373): SugarController->process()
+#10 /var/www/html/SuiteCRM/include/MVC/SugarApplication.php(113): SugarController->execute()
+#11 /var/www/html/SuiteCRM/index.php(52): SugarApplication->execute()
+#12 {main}
+Sat Feb  6 00:15:41 2021 [2536][1][FATAL] UndeployedMetaDataImplementation->getFileName(): view type custom is not recognized
+Sat Feb  6 00:15:41 2021 [2536][1][FATAL] UndeployedMetaDataImplementation->getFileName(): view type custom is not recognized
+Sat Feb  6 00:15:43 2021 [2536][1][FATAL] UndeployedMetaDataImplementation->getFileName(): view type custom is not recognized
+Sat Feb  6 00:15:43 2021 [2536][1][FATAL] UndeployedMetaDataImplementation->getFileName(): view type custom is not recognized
+Sat Feb  6 00:16:08 2021 [2534][1][FATAL] UndeployedMetaDataImplementation->getFileName(): view type custom is not recognized
+Sat Feb  6 00:16:08 2021 [2534][1][FATAL] UndeployedMetaDataImplementation->getFileName(): view type custom is not recognized
+Sat Feb  6 00:16:13 2021 [2534][1][FATAL] UndeployedMetaDataImplementation->getFileName(): view type custom is not recognized
+Sat Feb  6 00:16:13 2021 [2534][1][FATAL] UndeployedMetaDataImplementation->getFileName(): view type custom is not recognized
+Sat Feb  6 00:17:23 2021 [2536][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Sat Feb  6 00:17:23 2021 [2536][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Sat Feb  6 00:17:23 2021 [2536][1][FATAL] Mysqli_query failed.
+Sat Feb  6 00:17:23 2021 [2536][1][FATAL]  Query Failed: SELECT ndt_customercontact_audit.*, IFNULL(users.user_name, 'Không rõ') AS user_name FROM ndt_customercontact_audit LEFT JOIN users ON ndt_customercontact_audit.created_by = users.id WHERE ndt_customercontact_audit.parent_id = 'caa694f3-d43c-3bfa-9ba4-601d7cd81ac0' order by ndt_customercontact_audit.date_created desc: MySQL error 1146: Table 'suitecrm.ndt_customercontact_audit' doesn't exist
+Sat Feb  6 00:23:16 2021 [2529][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array

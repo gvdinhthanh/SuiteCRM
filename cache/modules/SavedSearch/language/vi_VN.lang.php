@@ -1,5 +1,5 @@
 <?php
-// created: 2021-01-12 14:31:08
+// created: 2021-01-31 09:07:32
 $mod_strings = array (
   'LBL_MODULE_TITLE' => 'Bộ lọc đã lưu của tôi',
   'LBL_SEARCH_FORM_TITLE' => 'Bộ lọc đã lưu của tôi: bộ lọc',

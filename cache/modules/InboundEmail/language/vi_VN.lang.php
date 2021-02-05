@@ -1,5 +1,5 @@
 <?php
-// created: 2021-01-13 02:43:26
+// created: 2021-01-31 09:07:32
 $mod_strings = array (
   'LBL_RE' => 'trả lời:',
   'ERR_BAD_LOGIN_PASSWORD' => 'Đăng nhập hoặc Mật khẩu Không đúng',
